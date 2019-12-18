@@ -1,0 +1,553 @@
+p{
+  text-align: center;
+  color: white;
+}
+
+
+div#titre h3
+{
+	font-size: 30px;
+	background-image: radial-gradient(rgb(102, 102, 102),rgb(0, 0, 0));
+	color: rgb(255, 255, 255);
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+div#titre h4
+{
+	padding:20px;
+	font-size: 40px;
+	background-image:radial-gradient(rgb(102, 102, 102),rgb(0, 0, 0));
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -15px;
+}
+
+div#titre h5
+{
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -15px;
+}
+
+div#text
+{
+	font-size : 20px;
+	color: rgb(255, 255, 255);
+	padding: 2%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	width : 800px;
+}
+
+#wrapper
+{
+	width: 90em;
+	max-width: calc(100% - 4em);
+	margin: 0 auto;
+	background-image: linear-gradient(rgba(0, 96, 109, 0.979),rgb(0, 0, 0),rgb(0, 96, 109, 0.979),rgb(0, 0, 0));
+	border-radius: 8px;
+	margin-top: -105px;
+	border:1px solid #000000;
+	-moz-border-radius:9px;
+	-khtml-border-radius:9px;
+	-webkit-border-radius:9px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+:root {
+  --font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888;
+  text-align: left;
+  background-attachment: fixed;
+  background-image: url('https://panzergeneral.org/wp-content/uploads/2018/10/image-fond-ecran-1920x1080-the-elder-scrolls-v-skyrim-fond-d-cran-hd-arri-re-plan-227591-image-fond-ecran-1920x1080-2-fonds-d-cran-id-227591.jpg');
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#menufond
+{
+	position: fixed;
+	width: 100%;
+	background: linear-gradient(#004a53, #007272);
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+	height : 50px;
+}
+
+#menu
+{
+	height: auto;
+	position: fixed;
+	font-family: "Trebuchet MS";
+	display: table;
+	margin-right : auto;
+	margin-left : 34%;
+	margin-top : 0;
+	padding : 0;
+}
+
+#menu li
+{
+	display: inline-block;
+	width: 195px;
+	transition:1s;
+}
+
+#menu li:hover
+{
+	width:190px;
+	transition:1s;
+}
+
+#menu a
+{
+	display: block;
+	line-height: 46px;
+	text-align: center;
+	text-decoration : none;
+	color : #ffffff, 255, 255);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	transition : text-shadow,color 1s;
+	position:relative;
+	/* utilse pour l'affichage du point */
+}
+
+#menu a:hover
+{
+	background: rgba(87, 72, 72, 0.1);
+	border-bottom: solid 4px rgba(255,255,255,0.8);
+	color : #ffffff;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	transition : text-shadow,color 1s;
+}
+
+#menu a::before
+{
+	bottom: 5px;
+	transition:1s;
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+#menu a:hover::before
+{
+	border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+transition:1s}
+
+/* FOOTER */
+footer
+{
+	box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: rgb(58, 58, 58);
+	z-index: 10000000000;
+}
+
+footer .right
+{
+	position: absolute;
+	top: 4px;
+	right: 85px;
+	;
+}
+
+footer .left
+{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+ul.footer_links
+{
+	list-style-type: none;
+}
+
+ul.footer_links li
+{
+	display: inline-block;
+	padding: 4px 8px;
+}
+
+ul.niv_1
+{
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+ul.niv_1 > li
+{
+	display: block;
+	position: relative;
+}
+
+ul.niv_1 li a:hover, ul.niv_1 li a:focus
+{
+	color: #AE831D;
+}
+
+ul.niv_1 > li:hover ul.niv_2
+{
+	display: block;
+}
+
+ul.niv_2
+{
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	background-image: linear-gradient(grey, black);
+	padding-left: 0;
+	box-shadow: 0px 13px 11px rgba(0,0,0,0.4);
+	z-index: 100000;
+}
+
+ul.niv_2 li a,ul.niv_2 li a:visited
+{
+	display: block;
+	text-align: left;
+}
+
+ul.niv_2 li a:hover,ul.niv_2 li a:focus
+{
+	display: block;
+	background-color:#000;
+	color: #FFF;
+}
+
+a
+{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover
+{
+	color: #1d7097;
+	text-decoration: underline;
+}
+
+a:not([href]):not([tabindex])
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus
+{
+	outline: 0;
+}
+
+#slideshow {
+	position: relative;
+	width: 640px;
+	height: 310px;
+	padding: 15px;
+	margin: 0 auto 2em;
+	border: 1px solid #ddd;
+	background: #FFF;
+	/* CSS3 effects */
+	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+}
+ 
+#slideshow:before,
+#slideshow:after {
+	position: absolute;
+	bottom:16px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+	background: rgba(0,0,0,0.1);
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+}
+#slideshow:before {
+	left:0;
+	transform: rotate(-4deg);
+}
+#slideshow:after {
+	right:0;
+	transform: rotate(4deg);
+}
+
+/* gestion des dimensions et débordement du conteneur */
+#slideshow .container {
+	position:relative;
+	width: 640px;
+	height: 310px;
+	overflow: hidden;
+}
+	
+/* on prévoit un petit espace gris pour la timeline */
+#slideshow .container:after {
+	position:absolute;
+	bottom: 0; left:0;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+/* 
+   le conteneur des slides
+   en largeur il fait 100% x le nombre de slides
+*/
+#slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+	width: 400%;
+	height: 310px;
+}
+
+/* annulation des marges sur figure */
+#slideshow figure {
+	position:relative;
+	display:inline-block;
+	padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+	position: absolute;
+	display:block;
+	content: " ";
+	top:0; left:0;
+	width: 100%; height: 100%;
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+/* styles de nos légendes */
+#slideshow figcaption {
+	position:absolute;
+	left:0; right:0; bottom: 5px;
+	padding: 20px;
+	margin:0;
+	border-top: 1px solid rgb(225,225,225);
+	text-align:center;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	font-family: Georgia, Times, serif;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	color: #555;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+
+/* fonction d'animation, n'oubliez pas de prefixer ! */
+@keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+
+/* complétez le sélecteur : */
+#slideshow .slider {
+	/* ... avec la propriété animation */
+	animation: slider 32s infinite;
+}
+
+#timeline {
+	position: absolute;
+	background: #999;
+	bottom: 15px;
+	left: 15px;
+	height: 1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 144, 155, 0.8);
+	width: 0;
+	/* fonction d'animation */
+	animation: timeliner 32s infinite;
+}
+
+@keyframes timeliner {
+	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
+	20%, 45%, 70%, 90%		{ width: 640px;	}
+}
+
+@keyframes figcaptionner {
+	0%, 25%, 50%, 75%, 100%						{ bottom: -55px;	}
+	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ bottom: 5px;		}
+}
+
+/* ajouter à l'élément : */
+#slideshow figcaption {
+	/* ... la propriété animation */
+	animation: figcaptionner 32s infinite;
+}
+
+.play_commands {
+	/* positionnement en haut à droite */ 
+	position: absolute;
+	top: 25px; right: 25px;
+	z-index: 10;
+	/* dimensionnement des icônes */
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	border:0 none;
+	/* placez l'opacité à 1 si vous souhaitez voir les commandes */
+	opacity: 0;
+	/* préparation de transition sur opacicty et right */
+	transition: opacity 1s, right 1s;
+}
+/* on décale play légèrement sur la gauche */
+.play { right: 55px; cursor: default; }
+ 
+/* création de l'icône pause avec 2 pseudos éléments */
+.pause:after,
+.pause:before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top:0;
+	width:38%;
+	height: 22px;
+	background: #fff;
+	background: rgba(255,255,255,0.5);
+}
+.pause:after { right:0; }
+.pause:before {	left:0; }
+ 
+/* création de l'icône play avec des bordures */
+.play {
+	width: 1px; 
+	height: 1px; 
+	/* les transparentes forment la flèche */
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 20px solid #fff; 
+	border-left: 20px solid rgba(255,255,255,0.5); 
+	/* renseignez 1 pour voir l'icône de suite */
+	opacity: 0;
+}
+ 
+/* apparition du bouton pause au survole */
+/* apparition des boutons au focus */
+#slideshow:hover .pause,
+.play_commands:focus {
+	opacity: 1;
+	outline: none;
+}
+
+/* stopper les animation */
+.sl_command:target ~ #slideshow .slider,
+.sl_command:target ~ #slideshow figcaption,
+.sl_command:target ~ #slideshow #timeline,
+.sl_command:target ~ #slideshow .dots_commands li:first-child a:after {
+	animation-play-state: paused;
+}
+ 
+/* redémarrer les animations */
+#sl_play:target ~ #slideshow .slider,
+#sl_play:target ~ #slideshow figcaption,
+#sl_play:target ~ #slideshow #timeline,
+#sl_play:target ~ #slideshow .dots_commands li:first-child a:after {
+	animation-play-state: running;
+}
+ 
+/* switch entre les boutons */
+.sl_command:target ~ #slideshow .pause 		{ opacity:0; }
+#sl_play:target ~ #slideshow:hover .pause,
+#sl_play:target ~ #slideshow .pause:focus 	{ opacity:1; }
+.sl_command:target ~ #slideshow .play 		{ opacity:1; right: 25px; cursor: pointer; }
+#sl_play:target ~ #slideshow .play 			{ opacity:0; right: 55px; cursor: default; }
+
+#slideshow .commands {
+	position: absolute;
+	top: 45%;
+	padding: 5px 13px;
+	border-bottom:0;
+	font-size: 1.3em;
+	color: #aaa;
+	text-decoration:none;
+	background-color: #eee;
+	background-image: linear-gradient(#fff,#ddd);
+	text-shadow: 0 0 1px #aaa;
+	border-radius: 50%;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+ 
+#slideshow .prev { left: -48px; }
+#slideshow .next { right: -48px; }
+ 
+#slideshow .commands { display:none; }
+#slideshow .commands1 {	display: block; }
+
+#slideshow .c_slider {
+	position: absolute;
+	left:0; top:0;
+	width: 400%;
+	height: 310px;
+	/* multiple background */
+	background: url(img/dummy-640x310-1.jpg) 0 0 no-repeat,
+	            url(img/dummy-640x310-2.jpg) 640px 0 no-repeat,
+	            url(img/dummy-640x310-3.jpg) 1280px 0 no-repeat,
+	transition: background 1s;
+}
+
+/* on cache le slider */
+.sl_i:target ~ #slideshow .slider									{ visibility: hidden }
+/* on planque la 1ère pastille (cf. bonux suivant) */
+.sl_i:target ~ #slideshow .dots_commands li:first-child a:after		{ display:none; }
+/* pour afficher la 2ème pastille (cf. bonux suivant) */
+.sl_i:target ~ #slideshow .dots_commands li:first-child a:before	{ display:block; }
+ 
+/* lorsque on cible le premier slider */
+/* on cache tous les "précédent" et "suivant" */
+#sl_i1:target ~ #slideshow .commands								{ display: none; }
+/* on affiche seulement deux flèches */
+#sl_i1:target ~ #slideshow .commands1								{ display: block; }
+/* correspond au décalage des images */
+#sl_i1:target ~ #slideshow .c_slider								{ background-position: 0 0, 640px 0, 1280px 0, 1920px 0; }
+/* on place la pastille tout à gauche */
+#sl_i1:target ~ #slideshow .dots_commands li:first-child a:before	{ left:0; }
+ 
+/* même procédé lorsqu'on cible le second slide */
+#sl_i2:target ~ #slideshow .commands								{ display: none; }
+#sl_i2:target ~ #slideshow .commands2								{ display: block; }
+#sl_i2:target ~ #slideshow .c_slider								{ background-position: -640px 0, 0 0, 640px 0, 1280px 0; }
+#sl_i2:target ~ #slideshow .dots_commands li:first-child a:before	{ left:18px; }
+ 
+/* puis le 3ème */
+#sl_i3:target ~ #slideshow .commands								{ display: none; }
+#sl_i3:target ~ #slideshow .commands3								{ display: block; }
+#sl_i3:target ~ #slideshow .c_slider								{ background-position: -1280px 0, -640px 0, 0 0, 640px 0; }
+#sl_i3:target ~ #slideshow .dots_commands li:first-child a:before	{ left:36px; }
