@@ -67,7 +67,7 @@ div#text
 	border: 1px solid black;
 	margin-left: 90px;
 	margin-right: 90px;
-	background-image: linear-gradient(rgb(0, 174, 255), rgb(255, 255, 255))
+	background-image: linear-gradient(rgb(0, 174, 255), rgb(255, 254, 206))
 }
 
 .Paragraphe{
@@ -75,6 +75,10 @@ div#text
 	color: rgb(0, 0, 0);
 	margin-left: 45px;
 	margin-right: 45px;
+	border-radius: 10px 5px 10px 5px;
+	border: 1px solid black;
+	background-image: linear-gradient(rgb(241, 161, 255), rgb(255, 254, 206))
+
 }
 #wrapper
 {
@@ -145,6 +149,7 @@ dl {
 	display: inline-block;
 	width: 195px;
 	transition:1s;
+	left: -85px;
 }
 
 #menu li:hover
