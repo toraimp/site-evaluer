@@ -1,3 +1,13 @@
+img{
+	display: inline-block;
+	padding: 15px;
+    margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px; 
+	max-width: 100%;
+	height: auto;
+}
+
 p{
   text-align: center;
   color: white;
@@ -16,9 +26,10 @@ div#titre h3
 
 div#titre h4
 {
+
 	padding:20px;
 	font-size: 40px;
-	background-image:radial-gradient(rgb(102, 102, 102),rgb(0, 0, 0));
+	background-image:radial-gradient(rgba(1, 136, 118, 0.603),rgb(255, 255, 255));
 	color: rgb(255, 255, 255);
 	text-align: center;
 	margin: 0 auto;
@@ -45,14 +56,34 @@ div#text
 	width : 800px;
 }
 
+.Qualité{
+	padding:20px;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -15px;
+	border-radius: 10px 5px 10px 5px;
+	border: 1px solid black;
+	margin-left: 90px;
+	margin-right: 90px;
+	background-image: linear-gradient(rgb(0, 174, 255), rgb(255, 255, 255))
+}
+
+.Paragraphe{
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-left: 45px;
+	margin-right: 45px;
+}
 #wrapper
 {
 	width: 90em;
 	max-width: calc(100% - 4em);
 	margin: 0 auto;
-	background-image: linear-gradient(rgba(0, 96, 109, 0.979),rgb(0, 0, 0),rgb(0, 96, 109, 0.979),rgb(0, 0, 0));
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 130, 139),rgb(0, 96, 109, 0.979),rgb(255, 255, 255));
 	border-radius: 8px;
-	margin-top: -105px;
+	margin-top: 0px;
 	border:1px solid #000000;
 	-moz-border-radius:9px;
 	-khtml-border-radius:9px;
@@ -74,9 +105,8 @@ body {
   color: #888;
   text-align: left;
   background-attachment: fixed;
-  background-image: url('https://panzergeneral.org/wp-content/uploads/2018/10/image-fond-ecran-1920x1080-the-elder-scrolls-v-skyrim-fond-d-cran-hd-arri-re-plan-227591-image-fond-ecran-1920x1080-2-fonds-d-cran-id-227591.jpg');
+  background-image: linear-gradient(rgb(0, 182, 206), rgb(0, 0, 0),white);
 }
-
 ol,
 ul,
 dl {
@@ -88,10 +118,12 @@ dl {
 {
 	position: fixed;
 	width: 100%;
-	background: linear-gradient(#004a53, #007272);
+	background: linear-gradient(#ffffffab, #007272);
 	border-radius: 0px 0px 4px 4px;
 	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
 	height : 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #menu
@@ -104,6 +136,8 @@ dl {
 	margin-left : 34%;
 	margin-top : 0;
 	padding : 0;
+	max-width: 100%;
+	height: auto;
 }
 
 #menu li
