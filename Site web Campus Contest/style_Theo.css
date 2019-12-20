@@ -3,15 +3,25 @@
 	color: black;
 	padding-bottom: 1%;
 	font-size: 35px;
-	background-image:radial-gradient(rgba(1, 136, 118, 0.603),rgb(255, 255, 255));
+	font-size: 25px;
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
 }
 
-#Portfolio{
-	display: flex; 
+#Stages p{
+	text-align: center;
+	color: black;
+	font-size: 35px;
+	font-size: 25px;
+	text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+	text-align: center;
+	background: rgb(107, 107, 107);
+}
+#Portfolio img{
     flex-flow: row wrap;
     justify-content: center;
     padding-bottom: 20px;
-	margin: 130px auto;
+	margin: 1px auto;
+    margin-left: 33%;
 }
 
 #PhoneDoc p{
@@ -20,6 +30,9 @@
     justify-content: center;
 	margin: 10px auto;
 	color: white;
+	bottom: 10%;
+	font-size: 50px;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 p{
@@ -36,17 +49,19 @@ div#titre h3
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
+	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 div#titre h4
 {
 	padding:15px;
 	font-size: 40px;
-	background-image:radial-gradient(rgba(1, 136, 118, 0.603),rgb(255, 255, 255));
+	background-image:radial-gradient(#4a7474,rgb(255, 255, 255));
 	color: rgb(255, 255, 255);
 	text-align: center;
 	margin: 0 auto;
 	margin-top: -24px;
+	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 div#titre h5
@@ -59,6 +74,7 @@ div#titre h5
 	margin: 0 auto;
 	margin-top: -15px;
 	border-bottom:1px solid white;
+	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 div#text
@@ -130,7 +146,7 @@ dl {
 	width: 100%;
 	background: linear-gradient(#ffffff, #4a7474);
 	border-radius: 0px 0px 4px 4px;
-	box-shadow: 0px 0px 2px 2px rgb(0, 0, 0),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px -3px 0px 1px rgba(0, 0, 0, 0.719) inset;
+	box-shadow: 0px 0px 2px 2px rgb(0, 0, 0),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px 0px 0px 1px rgba(0, 0, 0, 0.719) inset;
 	height : 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -212,7 +228,7 @@ dl {
 	width: 100%;
 	background: linear-gradient(#ffffff, #4a7474);
 	border-radius: 0px 0px 4px 4px;
-	box-shadow: 0px 0px 2px 2px rgb(0, 0, 0),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px -3px 0px 1px rgba(0, 0, 0, 0.719) inset;
+	box-shadow: 0px 0px 2px 2px rgb(0, 0, 0),      0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,      0px 0px 0px 1px rgba(0, 0, 0, 0.719) inset;
 	height : 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -437,6 +453,8 @@ section h2{
     margin: 20px 0;
 	width: 100%;
 	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	color: white;
 }
 section > div{
 	width: 90%;
@@ -691,7 +709,6 @@ section > div{
 #slideshow .container {
 	position:relative;
 	width: 640px;
-	height: 310px;
 	overflow: hidden;
 }
 	
@@ -899,4 +916,38 @@ section > div{
 	            url(img/dummy-640x310-3.jpg) 1280px 0 no-repeat,
 	            url(img/dummy-640x310-4.jpg) 1920px 0 no-repeat;
 	transition: background 1s;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
