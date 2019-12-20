@@ -10,13 +10,6 @@ Chaque jours nous avons retranscrit dans un document pdf, l'avancée de notre pr
 
 Le travail sera rendu le Vendredi 20 décembre avant 23h59.
 
----------------------------------
-
-### Installation
-
-Pour installer le projet il faut tout simplement télécharger le .zip puis l'extraire. 
-Ensuite cliquer sur index.htmlavec un navigateur web.
-
 ----------------------------------
 
 ### Style de codage
@@ -28,7 +21,7 @@ Projet codé avec HTML et CSS, avec le logiciel Visual Studio Code.
 
 ## Auteurs ✒️
 
-Théo BUTET sur tout le projet.
+Théo BUTET et Nathan CASSAN
 
 ---------------------------------
 
