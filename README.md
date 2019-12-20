@@ -1,9 +1,9 @@
 # SITE EVALUÉ
 
 
-nous devons créé un site qui nous met en avant et pour montrer ce que nous avons fait au entreprises qui peuvent nous recruter
-nous avons créé un portfolio.
-nous avons du faire les maquettes de chaque page du site et nous avons du créé une base de donnée qui retranscrit tous les données utiliser sur le site.
-chaque jour nous dire ce que nous aonvs fait en format pdf.
+Nous devons créé un site, qui va mettre en avant nos compétences professionnelles ainsi que nos experiences passées afin d'être recruté dans une entreprise.
+Dans le cadre de notre examen, nous avons crée un Portfolio qui permet de visualiser notre savoir faire en matière de codage HTML & CSS.
+Nous avons crée des maquettes de chaque pages du site ainsi qu'une base de données qui retranscrit toutes les données utilisés sur le site.
+Chaque jours nous avons retranscrit dans un document pdf, l'avancée de notre projet pour le Campus Contest.
 
-nous devons rendre tous le travail le vendredi 20 decembre avant 23h59.
+Le travail sera rendu le Vendredi 20 décembre avant 23h59.
